@@ -1,18 +1,27 @@
 /* common styles */
-* {
-  margin: 0;
-  padding: 0;
+*{
+    margin: 0;
+    padding: 0;
 }
 body {
   font-family: "Open Sans", sans-serif;
+}
+/* header style */
+.header{
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:bottom right;
+    padding-top: 50px;
 }
 /* Navigation CSS */
 nav {
   display: flex;
   justify-content: space-between;
-}
-.container{
-    background-color: #FFF8F3;
+  align-items: center;
+  margin-top: 5;
+  padding-left: 230px;
+  padding-right: 160px;
 }
 nav > ul {
     display: flex;
@@ -20,11 +29,10 @@ nav > ul {
 }
 nav li {
     list-style: none;
-    margin-left: 68px;
-    color: #474747;
     font-size: 20px;
-    font-style: normal;
+font-style: normal;
     font-weight: 400;
+    margin-right: 50px;
 }
 nav a{
     text-decoration: none;
@@ -32,8 +40,6 @@ nav a{
 }
 .nav-title {
   color: #181818;
-  margin: 50px 226px;
-  font-family: Open Sans;
   font-size: 45px;
   font-weight: 800;
 }
@@ -41,15 +47,49 @@ nav a{
     color: #fd6e0a;
 }
 .btn-style{
-    margin-right:  230px;
     font-family: Open Sans;
     font-size: 20px;
     border: 0px;
+    padding: 15px 35px;
     border-radius: 5px;
-    width: 150px;
-    height: 64px;
     background-color: #fd6e0a;
-    color: #FFF;
-    font-style: normal;
+    color: white;
     font-weight: 700px;
+}
+#btn2{
+    padding-right: 20px;
+}
+.btn3{
+    font-size: 20px;
+    border: 2px solid #fd6e0a;
+    padding: 15px 35px;
+    border-radius: 5px;
+    background-color: white;
+    color: #fd6e0a;
+    font-weight: bold;
+}
+
+.banner-greetings{
+    color:#474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    color:#181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner-description{
+    margin-bottom: 30px;
+}
+/* banner style */
+.banner{
+    padding: 30px 30px 0px 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
 }
