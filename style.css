@@ -325,3 +325,13 @@ footer {
   margin: 15px 0px;
   padding: 20px 30px;
 }
+.copyright{
+  text-align: center;
+  color: #757575;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 30px;
+}
