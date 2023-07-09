@@ -11,7 +11,7 @@ body {
   background-color: #fff8f3;
   background-image: url(images/header_bg.png), url("images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right, calc(100% - 1530px);
+  background-position: bottom right, top 40px left 50px;
   padding-top: 50px;
 }
 /* Navigation CSS */
