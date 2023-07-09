@@ -186,8 +186,19 @@ main {
     text-align: left;
     width: 558px;
 }
+/* footer */
+footer{
+    background-color: #fff8f3;
+}
 /* contact section  */
 .contact{
     display: flex;
-    justify-content: space-around;   
+    justify-content: space-around;
+    max-width: 1140px;
+    margin: 0 auto;   
+    padding: 130px;
+}
+.contact-part{
+    text-align: left;
+    width: 558px;
 }
