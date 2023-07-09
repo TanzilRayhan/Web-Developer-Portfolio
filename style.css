@@ -9,9 +9,9 @@ body {
 /* header style */
 .header {
   background-color: #fff8f3;
-  background-image: url(images/header_bg.png), url('images/developer.png');
+  background-image: url(images/header_bg.png), url("images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right, top left;
+  background-position: bottom right, calc(100% - 1530px);
   padding-top: 50px;
 }
 /* Navigation CSS */
@@ -54,7 +54,7 @@ nav a {
   background-color: #fd6e0a;
   color: white;
   font-weight: 700px;
-  color: #FFF;
+  color: #fff;
   font-size: 20px;
   font-weight: 700;
 }
@@ -124,10 +124,32 @@ main {
 }
 .about > p {
   margin-bottom: 50px;
+  color: #757575;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0px 40px;
 }
 .about-info-container {
   display: flex;
   justify-content: space-around;
+}
+.info-description{
+    color: #474747;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+.info-title {
+  color: #757575;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
 }
 /* skill-section */
 .skill-section {
@@ -167,7 +189,7 @@ main {
 .skill {
   border-radius: 5px;
   background: #fff;
-  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   padding: 27px 30px;
   text-align: left;
   margin: 15px;
@@ -199,12 +221,12 @@ main {
   line-height: normal;
   margin: 20px 0px;
 }
-#btn4{
-    margin-top: 20px;
-    margin-bottom: 100px;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
+#btn4 {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
 }
 .resume-info-title {
   color: #474747;
@@ -213,7 +235,7 @@ main {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin: 10px 0px ;
+  margin: 10px 0px;
 }
 .segment {
   display: flex;
@@ -226,12 +248,12 @@ main {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  margin: 10px 0px ;
+  margin: 10px 0px;
   margin-bottom: 30px;
   padding-right: 90px;
 }
-hr{
-    width: 528px;
+hr {
+  width: 528px;
 }
 .resume {
   text-align: left;
