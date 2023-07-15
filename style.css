@@ -328,10 +328,22 @@ footer {
 .copyright{
   text-align: center;
   color: #757575;
-  font-family: Open Sans;
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   padding-bottom: 30px;
+}
+
+/* Responsive Layout */
+/* Mobile Devices */
+@media screen and (max-width: 576px) {
+  .contact{
+    flex-direction: column;
+
+  }
+  .skill-list{
+    flex-direction: column;
+  }
+  #what-i-do{
+    padding: 10px;
+  }
 }
